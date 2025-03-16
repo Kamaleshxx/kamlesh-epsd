@@ -1,0 +1,64 @@
+/* CSS Code (styles.css) */
+
+body {
+    font-family: Copperplate, copperplate-gothic;
+    background-color: #1a1a1a;
+    color: #d3bfa6;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background: none;
+    padding: 20px;
+    text-align: center;
+}
+.navbar a {
+    color: #d3bfa6;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: url('trav3.jpg') no-repeat center/cover;
+}
+.hero h1 {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    font-size: 48px;
+    border-radius: 10px;
+}
+.product-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.product {
+    text-align: center;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    transition: transform 0.3s;
+}
+.product:hover {
+    transform: scale(1.05);
+}
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+.product h2 {
+    margin: 15px 0;
+}
+.product button {
+    background: #d3bfa6;
+    color: #000;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
